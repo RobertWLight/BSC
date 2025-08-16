@@ -326,50 +326,83 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Benefits Section */}
+      {/* Benefits Section - Continuing with rest of landing page... */}
       <section className="bg-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h3 className="text-3xl font-bold text-gray-900 mb-4">Why Choose Our FICA Reduction Program?</h3>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Our program helps businesses save on taxes while providing valuable benefits to employees.
-            </p>
+            <h3 className="text-3xl font-bold text-gray-900 mb-4">What Your Employees Receive</h3>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center p-6">
-              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="bg-blue-50 rounded-lg p-6">
+              <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.781 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 8.172V5L8 4z" />
                 </svg>
               </div>
-              <h4 className="text-xl font-semibold text-gray-900 mb-2">Reduce FICA Taxes</h4>
+              <h4 className="text-xl font-semibold text-gray-900 mb-2">GenericRx - $0 Copay</h4>
               <p className="text-gray-600">
-                Significantly lower your business's FICA tax burden through our structured benefit program.
+                Over 1000 of the most common generic prescriptions at NO cost or copay.
               </p>
             </div>
 
-            <div className="text-center p-6">
-              <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="bg-green-50 rounded-lg p-6">
+              <div className="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4" />
+                </svg>
+              </div>
+              <h4 className="text-xl font-semibold text-gray-900 mb-2">Labs - $0 Copay</h4>
+              <p className="text-gray-600">
+                Over 1200 labs including blood, urine, cytology, pathology, and cultures.
+              </p>
+            </div>
+
+            <div className="bg-purple-50 rounded-lg p-6">
+              <div className="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                </svg>
+              </div>
+              <h4 className="text-xl font-semibold text-gray-900 mb-2">Urgent Care - $0 Copay</h4>
+              <p className="text-gray-600">
+                Get up to 3 in-person urgent care visits each year.
+              </p>
+            </div>
+
+            <div className="bg-yellow-50 rounded-lg p-6">
+              <div className="w-12 h-12 bg-yellow-600 rounded-lg flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <h4 className="text-xl font-semibold text-gray-900 mb-2">Virtual Care 24/7</h4>
+              <p className="text-gray-600">
+                Get virtual care & urgent care 24/7/365.
+              </p>
+            </div>
+
+            <div className="bg-indigo-50 rounded-lg p-6">
+              <div className="w-12 h-12 bg-indigo-600 rounded-lg flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                </svg>
+              </div>
+              <h4 className="text-xl font-semibold text-gray-900 mb-2">TeleCounseling</h4>
+              <p className="text-gray-600">
+                Virtual counseling with US based Masters-Level Clinicians.
+              </p>
+            </div>
+
+            <div className="bg-red-50 rounded-lg p-6">
+              <div className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                 </svg>
               </div>
-              <h4 className="text-xl font-semibold text-gray-900 mb-2">Better Health Benefits</h4>
+              <h4 className="text-xl font-semibold text-gray-900 mb-2">Care Management</h4>
               <p className="text-gray-600">
-                Provide your employees with comprehensive health coverage that they'll truly value.
-              </p>
-            </div>
-
-            <div className="text-center p-6">
-              <div className="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                </svg>
-              </div>
-              <h4 className="text-xl font-semibold text-gray-900 mb-2">Permanent Life Insurance</h4>
-              <p className="text-gray-600">
-                Offer your employees permanent life insurance coverage with cash value accumulation.
+                Tailored healthcare experience for employees & their household.
               </p>
             </div>
           </div>
