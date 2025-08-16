@@ -279,7 +279,7 @@ function App() {
               onClick={handleApplyNow}
               className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-200"
             >
-              Get Started - No Cost Application
+              Get Your Free Quote
             </button>
             <button
               onClick={handleLearnMore}
