@@ -19,76 +19,7 @@ function App() {
 
 export default App;
 
-function App() {
-  const [showLeadForm, setShowLeadForm] = useState(false);
-  const [leadData, setLeadData] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    phone: "",
-    businessName: "",
-    numberOfEmployees: "",
-    industry: ""
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitted, setSubmitted] = useState(false);
 
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setLeadData(prev => ({
-      ...prev,
-      [name]: value
-    }));
-  };
-
-  const handleLeadSubmit = async (e) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-
-    try {
-      // Save lead to backend
-      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/leads`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          first_name: leadData.firstName,
-          last_name: leadData.lastName,
-          email: leadData.email,
-          phone: leadData.phone,
-          business_name: leadData.businessName,
-          number_of_employees: leadData.numberOfEmployees,
-          industry: leadData.industry
-        })
-      });
-
-      if (response.ok) {
-        setSubmitted(true);
-        
-        // After successful lead capture, redirect to your URL
-        setTimeout(() => {
-          window.open("https://tr.ee/NoCost", "_blank");
-        }, 2000);
-      } else {
-        throw new Error('Failed to submit lead');
-      }
-
-    } catch (error) {
-      console.error("Error capturing lead:", error);
-      alert("There was an error submitting your information. Please try again.");
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
-
-  const handleApplyNow = () => {
-    setShowLeadForm(true);
-  };
-
-  const handleLearnMore = () => {
-    setShowLeadForm(true);
-  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
