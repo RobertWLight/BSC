@@ -91,12 +91,18 @@ const AdminDashboard = () => {
   };
 
   const formatTime = (dateString) => {
-    return new Date(dateString).toLocaleTimeString('en-US', {
+    const date = new Date(dateString);
+    const timeString = date.toLocaleTimeString('en-US', {
       timeZone: 'America/New_York',
       hour: 'numeric',
       minute: '2-digit',
       hour12: true
     });
+    const timeZoneName = date.toLocaleString('en-US', {
+      timeZone: 'America/New_York',
+      timeZoneName: 'short'
+    }).split(', ')[1];
+    return `${timeString} ${timeZoneName}`;
   };
 
   const getEmployeeRange = (range) => {
