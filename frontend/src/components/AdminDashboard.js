@@ -34,24 +34,31 @@ const AdminDashboard = () => {
 
   const calculateStats = (leadsData) => {
     const now = new Date();
-    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    
+    // Convert to EST/EDT for proper day calculations
+    const nowEST = new Date(now.toLocaleString("en-US", {timeZone: "America/New_York"}));
+    const today = new Date(nowEST.getFullYear(), nowEST.getMonth(), nowEST.getDate());
     const thisWeekStart = new Date(today);
     thisWeekStart.setDate(today.getDate() - today.getDay());
-    const thisMonthStart = new Date(now.getFullYear(), now.getMonth(), 1);
+    const thisMonthStart = new Date(nowEST.getFullYear(), nowEST.getMonth(), 1);
 
     const todayLeads = leadsData.filter(lead => {
       const leadDate = new Date(lead.created_at);
-      return leadDate >= today;
+      const leadDateEST = new Date(leadDate.toLocaleString("en-US", {timeZone: "America/New_York"}));
+      const leadDay = new Date(leadDateEST.getFullYear(), leadDateEST.getMonth(), leadDateEST.getDate());
+      return leadDay.getTime() === today.getTime();
     }).length;
 
     const thisWeekLeads = leadsData.filter(lead => {
       const leadDate = new Date(lead.created_at);
-      return leadDate >= thisWeekStart;
+      const leadDateEST = new Date(leadDate.toLocaleString("en-US", {timeZone: "America/New_York"}));
+      return leadDateEST >= thisWeekStart;
     }).length;
 
     const thisMonthLeads = leadsData.filter(lead => {
       const leadDate = new Date(lead.created_at);
-      return leadDate >= thisMonthStart;
+      const leadDateEST = new Date(leadDate.toLocaleString("en-US", {timeZone: "America/New_York"}));
+      return leadDateEST >= thisMonthStart;
     }).length;
 
     setStats({
