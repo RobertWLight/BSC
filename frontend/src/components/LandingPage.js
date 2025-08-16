@@ -429,44 +429,17 @@ const LandingPage = () => {
 
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div>
-              <h4 className="text-lg font-semibold mb-4">FICA Reduction Program</h4>
-              <p className="text-gray-400">
-                Helping businesses save on taxes while providing better employee benefits.
-              </p>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4">Services</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li>FICA Tax Reduction</li>
-                <li>Health Insurance</li>
-                <li>Life Insurance</li>
-                <li>Employee Benefits</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4">Support</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li>Contact Us</li>
-                <li>Help Center</li>
-                <li>Documentation</li>
-                <li>FAQ</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4">Legal</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li>Privacy Policy</li>
-                <li>Terms of Service</li>
-                <li>Compliance</li>
-              </ul>
-            </div>
-          </div>
-          <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 FICA Reduction Program. All rights reserved.</p>
-          </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h4 className="text-2xl font-bold mb-4">FICA Reduction Program</h4>
+          <p className="text-gray-400 mb-6">
+            Business owners! Apply for your FICA reduction program today!
+          </p>
+          <button
+            onClick={handleApplyNow}
+            className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-200"
+          >
+            Start Your Application
+          </button>
         </div>
       </footer>
     </div>
