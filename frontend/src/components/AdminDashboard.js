@@ -349,7 +349,7 @@ const AdminDashboard = () => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
                           {formatDate(lead.created_at)}
                           <div className="text-xs text-gray-500">
-                            {formatTime(lead.created_at)} EST
+                            {formatTime(lead.created_at)}
                           </div>
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap">
