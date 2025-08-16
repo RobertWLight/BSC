@@ -148,7 +148,19 @@ const AdminDashboard = () => {
       <header className="bg-white shadow">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-6">
-            <h1 className="text-3xl font-bold text-gray-900">FICA Program - Lead Dashboard</h1>
+            <div>
+              <h1 className="text-3xl font-bold text-gray-900">FICA Program - Lead Dashboard</h1>
+              <p className="text-sm text-gray-500 mt-1">
+                All times shown in Eastern Time (EST/EDT) • Last updated: {new Date().toLocaleString('en-US', {
+                  timeZone: 'America/New_York',
+                  month: 'short',
+                  day: 'numeric',
+                  hour: 'numeric',
+                  minute: '2-digit',
+                  hour12: true
+                })} EST
+              </p>
+            </div>
             <div className="flex items-center space-x-4">
               <button
                 onClick={exportLeads}
