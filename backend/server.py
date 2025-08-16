@@ -98,8 +98,8 @@ class Employee(BaseModel):
     phone: str
     job_title: str
     annual_salary: float
-    hire_date: date
-    birth_date: date
+    hire_date: datetime
+    birth_date: datetime
     has_current_health_insurance: bool = False
     has_current_life_insurance: bool = False
     current_health_premium: Optional[float] = None
