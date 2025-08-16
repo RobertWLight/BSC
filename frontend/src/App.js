@@ -413,7 +413,7 @@ function App() {
             onClick={handleApplyNow}
             className="bg-white text-blue-600 px-10 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition duration-200"
           >
-            Apply Now - Get Started Today!
+            Get Your Free Quote Now!
           </button>
           <div className="mt-4">
             <p className="text-blue-100 text-sm">
