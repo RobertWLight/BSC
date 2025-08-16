@@ -80,12 +80,20 @@ const LandingPage = () => {
             <div className="flex items-center">
               <h1 className="text-3xl font-bold text-gray-900">FICA Reduction Program</h1>
             </div>
-            <button
-              onClick={() => navigate("/apply")}
-              className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-200"
-            >
-              Apply Now
-            </button>
+            <div className="flex items-center space-x-4">
+              <button
+                onClick={handleApplyNow}
+                className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-200"
+              >
+                Apply Now
+              </button>
+              <a 
+                href="/admin" 
+                className="text-gray-500 hover:text-gray-700 text-sm"
+              >
+                Admin
+              </a>
+            </div>
           </div>
         </div>
       </header>
