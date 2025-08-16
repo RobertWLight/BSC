@@ -198,6 +198,21 @@ class ApplicationUpdate(BaseModel):
     selected_life_plan_id: Optional[str] = None
     notes: Optional[str] = None
 
+# Lead Endpoints
+@api_router.post("/leads", response_model=Lead)
+async def create_lead(lead_data: LeadCreate):
+    """Capture a new lead"""
+    lead_dict = lead_data.dict()
+    lead_obj = Lead(**lead_dict)
+    await db.leads.insert_one(lead_obj.dict())
+    return lead_obj
+
+@api_router.get("/leads", response_model=List[Lead])
+async def get_leads():
+    """Get all leads"""
+    leads = await db.leads.find().sort("created_at", -1).to_list(1000)
+    return [Lead(**lead) for lead in leads]
+
 # Business Owner Endpoints
 @api_router.post("/business-owners", response_model=BusinessOwner)
 async def create_business_owner(owner_data: BusinessOwnerCreate):
