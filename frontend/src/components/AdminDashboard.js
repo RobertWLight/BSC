@@ -79,7 +79,8 @@ const AdminDashboard = () => {
   };
 
   const formatDateTime = (dateString) => {
-    return new Date(dateString).toLocaleString('en-US', {
+    const date = new Date(dateString);
+    const dateTimeString = date.toLocaleString('en-US', {
       timeZone: 'America/New_York',
       month: 'short',
       day: 'numeric',
@@ -88,6 +89,11 @@ const AdminDashboard = () => {
       minute: '2-digit',
       hour12: true
     });
+    const timeZoneName = date.toLocaleString('en-US', {
+      timeZone: 'America/New_York',
+      timeZoneName: 'short'
+    }).split(', ')[1];
+    return `${dateTimeString} ${timeZoneName}`;
   };
 
   const formatTime = (dateString) => {
