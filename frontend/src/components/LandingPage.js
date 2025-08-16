@@ -73,6 +73,193 @@ const LandingPage = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+      {/* Lead Capture Modal */}
+      {showLeadForm && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
+          <div className="bg-white rounded-lg max-w-md w-full p-6 max-h-[90vh] overflow-y-auto">
+            {!submitted ? (
+              <>
+                <div className="flex justify-between items-center mb-4">
+                  <h3 className="text-2xl font-bold text-gray-900">Get Your FICA Reduction Quote</h3>
+                  <button
+                    onClick={() => setShowLeadForm(false)}
+                    className="text-gray-400 hover:text-gray-600"
+                  >
+                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                
+                <div className="mb-6 p-4 bg-green-50 rounded-lg">
+                  <p className="text-green-800 font-semibold text-center">
+                    Save up to $1,100/year per employee!<br/>
+                    $100,000 Life Insurance - Zero Cost!
+                  </p>
+                </div>
+
+                <form onSubmit={handleLeadSubmit} className="space-y-4">
+                  <div className="grid grid-cols-2 gap-4">
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-1">
+                        First Name *
+                      </label>
+                      <input
+                        type="text"
+                        name="firstName"
+                        value={leadData.firstName}
+                        onChange={handleInputChange}
+                        required
+                        className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-1">
+                        Last Name *
+                      </label>
+                      <input
+                        type="text"
+                        name="lastName"
+                        value={leadData.lastName}
+                        onChange={handleInputChange}
+                        required
+                        className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                      />
+                    </div>
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-1">
+                      Email Address *
+                    </label>
+                    <input
+                      type="email"
+                      name="email"
+                      value={leadData.email}
+                      onChange={handleInputChange}
+                      required
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-1">
+                      Phone Number *
+                    </label>
+                    <input
+                      type="tel"
+                      name="phone"
+                      value={leadData.phone}
+                      onChange={handleInputChange}
+                      required
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-1">
+                      Business Name *
+                    </label>
+                    <input
+                      type="text"
+                      name="businessName"
+                      value={leadData.businessName}
+                      onChange={handleInputChange}
+                      required
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-1">
+                      Number of Employees *
+                    </label>
+                    <select
+                      name="numberOfEmployees"
+                      value={leadData.numberOfEmployees}
+                      onChange={handleInputChange}
+                      required
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    >
+                      <option value="">Select range</option>
+                      <option value="2-5">2-5 employees</option>
+                      <option value="6-10">6-10 employees</option>
+                      <option value="11-25">11-25 employees</option>
+                      <option value="26-50">26-50 employees</option>
+                      <option value="51-100">51-100 employees</option>
+                      <option value="100+">100+ employees</option>
+                    </select>
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-1">
+                      Industry
+                    </label>
+                    <select
+                      name="industry"
+                      value={leadData.industry}
+                      onChange={handleInputChange}
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    >
+                      <option value="">Select industry</option>
+                      <option value="Technology">Technology</option>
+                      <option value="Healthcare">Healthcare</option>
+                      <option value="Manufacturing">Manufacturing</option>
+                      <option value="Retail">Retail</option>
+                      <option value="Construction">Construction</option>
+                      <option value="Professional Services">Professional Services</option>
+                      <option value="Hospitality">Hospitality</option>
+                      <option value="Other">Other</option>
+                    </select>
+                  </div>
+
+                  <button
+                    type="submit"
+                    disabled={isSubmitting}
+                    className={`w-full py-3 rounded-lg font-semibold text-white transition duration-200 ${
+                      isSubmitting 
+                        ? 'bg-gray-400 cursor-not-allowed' 
+                        : 'bg-blue-600 hover:bg-blue-700'
+                    }`}
+                  >
+                    {isSubmitting ? (
+                      <span className="flex items-center justify-center">
+                        <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" fill="none" viewBox="0 0 24 24">
+                          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                          <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                        </svg>
+                        Processing...
+                      </span>
+                    ) : (
+                      'Get My FICA Reduction Quote'
+                    )}
+                  </button>
+
+                  <p className="text-xs text-gray-500 text-center">
+                    By submitting, you agree to be contacted about the FICA Reduction Program.
+                  </p>
+                </form>
+              </>
+            ) : (
+              <div className="text-center">
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Thank You!</h3>
+                <p className="text-gray-600 mb-4">
+                  Your information has been submitted. We'll be in touch soon with your FICA reduction details.
+                </p>
+                <p className="text-sm text-blue-600">
+                  Redirecting you to complete your application...
+                </p>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
       {/* Header */}
       <header className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
