@@ -56,7 +56,26 @@ class BenefitPlanType(str, Enum):
     LIFE_BASIC = "life_basic"
     LIFE_PREMIUM = "life_premium"
 
-# Data Models
+# Lead Model
+class Lead(BaseModel):
+    id: str = Field(default_factory=lambda: str(uuid.uuid4()))
+    first_name: str
+    last_name: str
+    email: EmailStr
+    phone: str
+    business_name: str
+    number_of_employees: str
+    industry: Optional[str] = None
+    created_at: datetime = Field(default_factory=datetime.utcnow)
+
+class LeadCreate(BaseModel):
+    first_name: str
+    last_name: str
+    email: EmailStr
+    phone: str
+    business_name: str
+    number_of_employees: str
+    industry: Optional[str] = None
 class BusinessOwner(BaseModel):
     id: str = Field(default_factory=lambda: str(uuid.uuid4()))
     first_name: str
