@@ -233,7 +233,7 @@ const LandingPage = () => {
           </p>
           <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
             <button
-              onClick={() => navigate("/apply")}
+              onClick={handleApplyNow}
               className="w-full sm:w-auto bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition duration-200"
             >
               Apply for FICA Reduction
