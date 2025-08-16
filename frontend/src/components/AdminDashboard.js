@@ -322,7 +322,7 @@ const AdminDashboard = () => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
                           {formatDate(lead.created_at)}
                           <div className="text-xs text-gray-500">
-                            {formatDateTime(lead.created_at).split(',')[1]}
+                            {formatTime(lead.created_at)} EST
                           </div>
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap">
