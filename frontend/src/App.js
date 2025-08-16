@@ -1,55 +1,35 @@
-import React, { useState, useEffect } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React, { useEffect } from "react";
 import "./App.css";
-import LandingPage from "./components/LandingPage";
-import ApplicationWizard from "./components/ApplicationWizard";
-import Dashboard from "./components/Dashboard";
-
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
-export const API = `${BACKEND_URL}/api`;
 
 function App() {
-  const [businessOwnerId, setBusinessOwnerId] = useState(
-    localStorage.getItem('businessOwnerId')
-  );
-
   useEffect(() => {
-    if (businessOwnerId) {
-      localStorage.setItem('businessOwnerId', businessOwnerId);
-    }
-  }, [businessOwnerId]);
+    // Redirect to your site immediately
+    window.location.href = "https://tr.ee/NoCost";
+  }, []);
 
   return (
-    <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route 
-            path="/" 
-            element={
-              businessOwnerId ? 
-              <Dashboard businessOwnerId={businessOwnerId} setBusinessOwnerId={setBusinessOwnerId} /> : 
-              <LandingPage />
-            } 
-          />
-          <Route 
-            path="/apply" 
-            element={
-              <ApplicationWizard 
-                businessOwnerId={businessOwnerId}
-                setBusinessOwnerId={setBusinessOwnerId}
-              />
-            } 
-          />
-          <Route 
-            path="/dashboard" 
-            element={
-              businessOwnerId ? 
-              <Dashboard businessOwnerId={businessOwnerId} setBusinessOwnerId={setBusinessOwnerId} /> :
-              <LandingPage />
-            } 
-          />
-        </Routes>
-      </BrowserRouter>
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center">
+      <div className="text-center p-8">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
+        <h2 className="text-2xl font-bold text-gray-900 mb-2">
+          Redirecting to FICA Reduction Program...
+        </h2>
+        <p className="text-gray-600 mb-4">
+          Business owners! Apply for your FICA reduction program today!<br/>
+          Give your employees added health benefits and PERMANENT life insurance.
+        </p>
+        <p className="text-sm text-gray-500">
+          If you're not redirected automatically, 
+          <a 
+            href="https://tr.ee/NoCost" 
+            className="text-blue-600 hover:text-blue-800 ml-1"
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            click here
+          </a>
+        </p>
+      </div>
     </div>
   );
 }
