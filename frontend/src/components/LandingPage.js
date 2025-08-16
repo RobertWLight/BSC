@@ -287,14 +287,14 @@ const LandingPage = () => {
 
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="text-center">
+        <div className="text-center mb-12">
           <h2 className="text-5xl font-extrabold text-gray-900 mb-6">
-            Reduce Your FICA Taxes While Providing
-            <span className="text-blue-600"> Better Employee Benefits</span>
+            <span className="text-blue-600">Save Up To $1,100/Year</span>
+            <br />Per Employee
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Help your employees with added health benefits and permanent life insurance 
-            while significantly reducing your business's FICA tax burden.
+            Business owners! Apply for your FICA reduction program today! 
+            Give your employees added health benefits and PERMANENT life insurance.
           </p>
           <div className="space-x-4">
             <button
@@ -310,6 +310,19 @@ const LandingPage = () => {
               Learn More
             </button>
           </div>
+        </div>
+
+        {/* Key Benefit Box */}
+        <div className="bg-green-50 border-2 border-green-200 rounded-lg p-8 mb-12 text-center">
+          <h3 className="text-3xl font-bold text-green-800 mb-4">
+            $100,000 Whole Life Insurance
+          </h3>
+          <p className="text-lg text-green-700 mb-2">
+            Zero cost - guaranteed issue, no health questions
+          </p>
+          <p className="text-2xl font-bold text-gray-900">
+            ALL at Zero $ net cost to Employer or Employee!!!
+          </p>
         </div>
       </section>
 
