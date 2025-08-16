@@ -409,75 +409,21 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* How It Works Section */}
-      <section className="bg-gray-50 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h3 className="text-3xl font-bold text-gray-900 mb-4">How It Works</h3>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Our simple process gets you started with FICA savings in just a few steps.
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
-                1
-              </div>
-              <h4 className="text-lg font-semibold text-gray-900 mb-2">Apply Online</h4>
-              <p className="text-gray-600">Complete our simple application with your business and employee information.</p>
-            </div>
-
-            <div className="text-center">
-              <div className="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
-                2
-              </div>
-              <h4 className="text-lg font-semibold text-gray-900 mb-2">Choose Benefits</h4>
-              <p className="text-gray-600">Select the health and life insurance plans that work best for your employees.</p>
-            </div>
-
-            <div className="text-center">
-              <div className="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
-                3
-              </div>
-              <h4 className="text-lg font-semibold text-gray-900 mb-2">Get Approved</h4>
-              <p className="text-gray-600">Our team reviews your application and provides approval within 24 hours.</p>
-            </div>
-
-            <div className="text-center">
-              <div className="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
-                4
-              </div>
-              <h4 className="text-lg font-semibold text-gray-900 mb-2">Start Saving</h4>
-              <p className="text-gray-600">Begin reducing your FICA taxes while providing better employee benefits.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="bg-blue-600 py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h3 className="text-3xl font-bold text-white mb-4">
-            Ready to Reduce Your FICA Taxes?
+          <h3 className="text-4xl font-bold text-white mb-4">
+            Ready to Save Up To $1,100 Per Employee?
           </h3>
           <p className="text-xl text-blue-100 mb-8">
-            Join thousands of businesses already saving with our FICA reduction program.
+            Apply today and give your employees incredible benefits at zero net cost!
           </p>
-          <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
-            <button
-              onClick={handleApplyNow}
-              className="w-full sm:w-auto bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition duration-200"
-            >
-              Apply for FICA Reduction
-            </button>
-            <button
-              onClick={() => window.open("https://tr.ee/NoCost", "_blank")}
-              className="w-full sm:w-auto bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-800 transition duration-200"
-            >
-              Get More Information
-            </button>
-          </div>
+          <button
+            onClick={handleApplyNow}
+            className="bg-white text-blue-600 px-10 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition duration-200"
+          >
+            Get Your Free Quote Now!
+          </button>
         </div>
       </section>
 
