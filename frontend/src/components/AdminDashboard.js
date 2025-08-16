@@ -158,7 +158,10 @@ const AdminDashboard = () => {
                   hour: 'numeric',
                   minute: '2-digit',
                   hour12: true
-                })} EST
+                })} {new Date().toLocaleString('en-US', {
+                  timeZone: 'America/New_York',
+                  timeZoneName: 'short'
+                }).split(', ')[1]}
               </p>
             </div>
             <div className="flex items-center space-x-4">
