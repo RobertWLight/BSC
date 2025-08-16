@@ -415,11 +415,6 @@ function App() {
           >
             Get Your Free Quote Now!
           </button>
-          <div className="mt-4">
-            <p className="text-blue-100 text-sm">
-              Click to visit: <span className="font-mono">tr.ee/NoCost</span>
-            </p>
-          </div>
         </div>
       </section>
 
