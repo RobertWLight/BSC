@@ -430,7 +430,7 @@ function App() {
             onClick={handleApplyNow}
             className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-200"
           >
-            Visit tr.ee/NoCost
+            Start Your Application
           </button>
         </div>
       </footer>
