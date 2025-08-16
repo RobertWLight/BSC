@@ -27,23 +27,38 @@ function App() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate lead capture (you can integrate with your CRM here)
     try {
-      // Store lead data to backend or send to your system
-      console.log("Lead captured:", leadData);
-      
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      
-      setSubmitted(true);
-      
-      // After successful lead capture, redirect to your URL
-      setTimeout(() => {
-        window.open("https://tr.ee/NoCost", "_blank");
-      }, 2000);
+      // Save lead to backend
+      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/leads`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          first_name: leadData.firstName,
+          last_name: leadData.lastName,
+          email: leadData.email,
+          phone: leadData.phone,
+          business_name: leadData.businessName,
+          number_of_employees: leadData.numberOfEmployees,
+          industry: leadData.industry
+        })
+      });
+
+      if (response.ok) {
+        setSubmitted(true);
+        
+        // After successful lead capture, redirect to your URL
+        setTimeout(() => {
+          window.open("https://tr.ee/NoCost", "_blank");
+        }, 2000);
+      } else {
+        throw new Error('Failed to submit lead');
+      }
 
     } catch (error) {
       console.error("Error capturing lead:", error);
+      alert("There was an error submitting your information. Please try again.");
     } finally {
       setIsSubmitting(false);
     }
