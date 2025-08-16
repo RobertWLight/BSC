@@ -109,18 +109,20 @@ const LandingPage = () => {
             Help your employees with added health benefits and permanent life insurance 
             while significantly reducing your business's FICA tax burden.
           </p>
-          <button
-            onClick={() => navigate("/apply")}
-            className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-200 mr-4"
-          >
-            Start Your Application
-          </button>
-          <button
-            onClick={() => window.open("https://tr.ee/NoCost", "_blank")}
-            className="bg-gray-100 text-gray-900 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-200 transition duration-200"
-          >
-            Learn More
-          </button>
+          <div className="space-x-4">
+            <button
+              onClick={handleApplyNow}
+              className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-200"
+            >
+              Get Your Free Quote
+            </button>
+            <button
+              onClick={handleLearnMore}
+              className="bg-gray-100 text-gray-900 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-200 transition duration-200"
+            >
+              Learn More
+            </button>
+          </div>
         </div>
       </section>
 
