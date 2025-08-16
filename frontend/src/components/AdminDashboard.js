@@ -439,7 +439,7 @@ const AdminDashboard = () => {
                 {leads.slice(0, 5).map((lead) => (
                   <div key={lead.id} className="text-sm">
                     <div className="font-medium text-gray-900">{lead.first_name} {lead.last_name}</div>
-                    <div className="text-gray-500">{formatDateTime(lead.created_at)} EST</div>
+                    <div className="text-gray-500">{formatDateTime(lead.created_at)}</div>
                   </div>
                 ))}
               </div>
