@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 
 const AdminDashboard = () => {
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [pinInput, setPinInput] = useState('');
+  const [pinError, setPinError] = useState('');
   const [leads, setLeads] = useState([]);
   const [loading, setLoading] = useState(true);
   const [stats, setStats] = useState({
@@ -10,9 +13,46 @@ const AdminDashboard = () => {
     thisMonthLeads: 0
   });
 
+  // Set your 4-digit PIN here
+  const ADMIN_PIN = '1234';
+
   useEffect(() => {
-    loadLeads();
+    // Check if already authenticated
+    const authStatus = sessionStorage.getItem('adminAuthenticated');
+    if (authStatus === 'true') {
+      setIsAuthenticated(true);
+      loadLeads();
+    } else {
+      setLoading(false);
+    }
   }, []);
+
+  const handlePinSubmit = (e) => {
+    e.preventDefault();
+    if (pinInput === ADMIN_PIN) {
+      setIsAuthenticated(true);
+      sessionStorage.setItem('adminAuthenticated', 'true');
+      setPinError('');
+      loadLeads();
+    } else {
+      setPinError('Incorrect PIN. Please try again.');
+      setPinInput('');
+    }
+  };
+
+  const handleLogout = () => {
+    setIsAuthenticated(false);
+    sessionStorage.removeItem('adminAuthenticated');
+    setPinInput('');
+  };
+
+  const handlePinChange = (e) => {
+    const value = e.target.value.replace(/\D/g, ''); // Only digits
+    if (value.length <= 4) {
+      setPinInput(value);
+      setPinError('');
+    }
+  };
 
   const loadLeads = async () => {
     try {
