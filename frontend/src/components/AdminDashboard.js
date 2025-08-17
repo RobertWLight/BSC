@@ -14,7 +14,7 @@ const AdminDashboard = () => {
   });
 
   // Set your 4-digit PIN here
-  const ADMIN_PIN = '1234';
+  const ADMIN_PIN = '2017';
 
   useEffect(() => {
     // Check if already authenticated
