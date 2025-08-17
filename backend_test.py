@@ -440,6 +440,8 @@ def main():
     # Test sequence
     test_sequence = [
         ("Health Check", tester.test_health_check),
+        ("Get Existing Leads", tester.test_get_existing_leads),
+        ("Create New Lead", tester.test_create_lead),
         ("Create Business Owner", tester.test_create_business_owner),
         ("Get Business Owner", tester.test_get_business_owner),
         ("Get All Business Owners", tester.test_get_all_business_owners),
