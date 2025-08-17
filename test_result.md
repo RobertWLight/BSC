@@ -101,3 +101,111 @@
 #====================================================================================================
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
+
+user_problem_statement: "FICA Reduction Program lead capture application with custom domain bsc-businessadvisors.com showing ERR_CONNECTION_TIMED_OUT. Need to troubleshoot domain connectivity and verify PIN protection (2017) for admin dashboard."
+
+backend:
+  - task: "Lead capture API endpoint"
+    implemented: true
+    working: "NA"
+    file: "/app/backend/server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Backend implementation complete, needs testing to verify API endpoints are working"
+
+  - task: "MongoDB connection and lead storage"
+    implemented: true
+    working: "NA"
+    file: "/app/backend/server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "MongoDB integration implemented, needs verification"
+
+  - task: "CORS configuration for frontend-backend communication"
+    implemented: true
+    working: "NA"
+    file: "/app/backend/server.py"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "CORS headers configured, needs verification"
+
+frontend:
+  - task: "Landing page with lead capture modal"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/components/LandingPage.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Landing page implemented with modal form, needs testing"
+
+  - task: "Admin dashboard with PIN protection"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/components/AdminDashboard.js"
+    stuck_count: 1
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "PIN protection (2017) implemented, user reports needs verification on live site"
+
+  - task: "Marketing hub component"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/components/MarketingHub.js"
+    stuck_count: 0
+    priority: "low"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Marketing materials display implemented, needs verification"
+
+  - task: "Custom domain connectivity"
+    implemented: true
+    working: false
+    file: "N/A"
+    stuck_count: 1
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: false
+        agent: "main"
+        comment: "Custom domain bsc-businessadvisors.com showing ERR_CONNECTION_TIMED_OUT, needs troubleshooting"
+
+metadata:
+  created_by: "main_agent"
+  version: "1.0"
+  test_sequence: 0
+  run_ui: false
+
+test_plan:
+  current_focus:
+    - "Lead capture API endpoint"
+    - "Custom domain connectivity"
+    - "Admin dashboard with PIN protection"
+  stuck_tasks:
+    - "Custom domain connectivity"
+  test_all: false
+  test_priority: "stuck_first"
+
+agent_communication:
+  - agent: "main"
+    message: "Initialized testing data structure. Ready to troubleshoot domain connectivity issues and verify PIN protection. Backend needs testing first before frontend testing."
