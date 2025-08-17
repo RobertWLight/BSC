@@ -57,6 +57,48 @@ class FICAReductionAPITester:
         """Test health check endpoint"""
         return self.run_test("Health Check", "GET", "health", 200)
 
+    def test_get_existing_leads(self):
+        """Test getting existing leads (should return 4 leads as mentioned)"""
+        success, response = self.run_test(
+            "Get Existing Leads",
+            "GET",
+            "leads",
+            200
+        )
+        
+        if success and isinstance(response, list):
+            print(f"   Found {len(response)} existing leads")
+            if len(response) > 0:
+                print(f"   Sample lead: {response[0].get('first_name', 'N/A')} {response[0].get('last_name', 'N/A')}")
+        
+        return success
+
+    def test_create_lead(self):
+        """Test creating a new lead"""
+        lead_data = {
+            "first_name": "Sarah",
+            "last_name": "Wilson",
+            "email": "sarah.wilson@techstartup.com",
+            "phone": "555-987-6543",
+            "business_name": "Wilson Tech Solutions",
+            "number_of_employees": "15-25",
+            "industry": "technology"
+        }
+        
+        success, response = self.run_test(
+            "Create New Lead",
+            "POST",
+            "leads",
+            200,
+            data=lead_data
+        )
+        
+        if success and 'id' in response:
+            print(f"   Created lead with ID: {response['id']}")
+            print(f"   Lead email: {response.get('email', 'N/A')}")
+        
+        return success
+
     def test_create_business_owner(self):
         """Test creating a business owner"""
         business_data = {
