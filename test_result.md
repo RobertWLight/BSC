@@ -207,7 +207,6 @@ metadata:
 
 test_plan:
   current_focus:
-    - "Lead capture API endpoint"
     - "Custom domain connectivity"
     - "Admin dashboard with PIN protection"
   stuck_tasks:
