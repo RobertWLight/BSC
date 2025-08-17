@@ -1,7 +1,7 @@
 # FICA Reduction Program - Complete Marketing Kit
 
 ## 🚀 Your Application URL
-**https://fica-reduction.preview.emergentagent.com**
+**https://fica-benefits-app.preview.emergentagent.com**
 
 ---
 
@@ -24,7 +24,7 @@ There's a FICA reduction program that can save businesses up to $1,100 per emplo
 
 The best part? ALL at zero net cost to you or your employees.
 
-Get your free quote in 2 minutes: https://fica-reduction.preview.emergentagent.com
+Get your free quote in 2 minutes: https://fica-benefits-app.preview.emergentagent.com
 
 Worth checking out!
 
@@ -47,7 +47,7 @@ Key benefits:
 → Comprehensive health benefits at $0 copay
 → Zero net cost to employer or employee
 
-Takes 2 minutes to get a quote: https://fica-reduction.preview.emergentagent.com
+Takes 2 minutes to get a quote: https://fica-benefits-app.preview.emergentagent.com
 
 Even if it's not right for you, might be worth knowing about for referrals.
 
@@ -60,7 +60,7 @@ Best,
 **Add to your email signature:**
 
 💰 Business owners: Save $1,100+ per employee with FICA reduction
-Get your free quote → https://fica-reduction.preview.emergentagent.com
+Get your free quote → https://fica-benefits-app.preview.emergentagent.com
 
 ---
 
@@ -81,7 +81,7 @@ ALL at zero net cost to you or your employees.
 This isn't too good to be true - it's a legitimate tax reduction strategy.
 
 Get your free quote in 2 minutes ⬇️
-https://fica-reduction.preview.emergentagent.com
+https://fica-benefits-app.preview.emergentagent.com
 
 #BusinessOwners #FICA #TaxReduction #EmployeeBenefits
 
@@ -100,7 +100,7 @@ If you have 10 employees, you could save $11,000+ annually while providing premi
 
 No catch. No hidden costs. Just smart tax strategy.
 
-2-minute quote: https://fica-reduction.preview.emergentagent.com
+2-minute quote: https://fica-benefits-app.preview.emergentagent.com
 
 #SmallBusiness #TaxStrategy #EmployeeBenefits
 
@@ -121,7 +121,7 @@ New program provides:
 ZERO cost to you or your employees!
 
 Find out if you qualify ⬇️
-https://fica-reduction.preview.emergentagent.com
+https://fica-benefits-app.preview.emergentagent.com
 
 ---
 
@@ -132,7 +132,7 @@ BUSINESS OWNERS!
 🏥 Free employee benefits
 ⏱️ 2-minute quote
 
-Swipe up: https://fica-reduction.preview.emergentagent.com
+Swipe up: https://fica-benefits-app.preview.emergentagent.com
 
 ---
 
@@ -141,7 +141,7 @@ Swipe up: https://fica-reduction.preview.emergentagent.com
 **Tweet 1:**
 🔥 Business owners: Save $1,100+ per employee with FICA reduction + give them $100K life insurance FREE
 
-2-min quote: https://fica-reduction.preview.emergentagent.com
+2-min quote: https://fica-benefits-app.preview.emergentagent.com
 
 #FICA #BusinessTips #EmployeeBenefits
 
@@ -152,7 +152,7 @@ Swipe up: https://fica-reduction.preview.emergentagent.com
 ✅ All at zero cost?
 
 This program does exactly that.
-https://fica-reduction.preview.emergentagent.com
+https://fica-benefits-app.preview.emergentagent.com
 
 ---
 
@@ -163,7 +163,7 @@ Hi [Name],
 
 Noticed you're a business owner. There's a FICA reduction program saving businesses $1,100+ per employee while providing premium benefits at zero cost.
 
-Worth a 2-minute look if you have employees: https://fica-reduction.preview.emergentagent.com
+Worth a 2-minute look if you have employees: https://fica-benefits-app.preview.emergentagent.com
 
 No pressure - just thought you'd want to know about it.
 
@@ -172,7 +172,7 @@ No pressure - just thought you'd want to know about it.
 ### Text Message
 Hey [Name]! Found something that could save your business $1,100+ per employee in FICA taxes while giving them $100K life insurance + health benefits for FREE. 
 
-2-min check: https://fica-reduction.preview.emergentagent.com
+2-min check: https://fica-benefits-app.preview.emergentagent.com
 
 Worth looking at!
 
@@ -251,7 +251,7 @@ Your employees receive:
 
 **ALL AT ZERO NET COST TO EMPLOYER OR EMPLOYEE!**
 
-Get your free quote: https://fica-reduction.preview.emergentagent.com
+Get your free quote: https://fica-benefits-app.preview.emergentagent.com
 
 ---
 
@@ -322,7 +322,7 @@ Open to discussing a referral partnership where we both benefit?
 
 ## 📱 QR CODE SUGGESTIONS
 
-Create QR codes linking to: https://fica-reduction.preview.emergentagent.com
+Create QR codes linking to: https://fica-benefits-app.preview.emergentagent.com
 
 **Use QR codes on:**
 - Business cards
@@ -477,6 +477,6 @@ Interested in learning more? Get your free assessment: [Your URL]
 
 ---
 
-**Your Success URL:** https://fica-reduction.preview.emergentagent.com
+**Your Success URL:** https://fica-benefits-app.preview.emergentagent.com
 
 *Use this comprehensive kit to promote your FICA reduction program across all channels. Mix and match the content based on your audience and platform.*

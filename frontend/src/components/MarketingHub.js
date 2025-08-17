@@ -61,7 +61,7 @@ There's a FICA reduction program that can save businesses up to $1,100 per emplo
 
 The best part? ALL at zero net cost to you or your employees.
 
-Get your free quote in 2 minutes: https://fica-reduction.preview.emergentagent.com
+Get your free quote in 2 minutes: https://fica-benefits-app.preview.emergentagent.com
 
 Worth checking out!
 
@@ -85,7 +85,7 @@ If not, I found a program that's helping business owners save up to $1,100 per e
 Cost to implement? $0
 Administrative work required? None
 
-Check if you qualify (2 minutes): https://fica-reduction.preview.emergentagent.com
+Check if you qualify (2 minutes): https://fica-benefits-app.preview.emergentagent.com
 
 Even if it's not right for you, thought you should know about it.
 
@@ -100,7 +100,7 @@ Best,
 Thanks for taking my call today about the FICA reduction program.
 
 As promised, here's your 2-minute assessment to see your potential savings:
-https://fica-reduction.preview.emergentagent.com
+https://fica-benefits-app.preview.emergentagent.com
 
 Based on our conversation about your [# of employees] employees, you could potentially save up to $[amount] annually while providing them incredible benefits.
 
@@ -125,7 +125,7 @@ There's a program that can save you up to $1,100 PER EMPLOYEE while giving them:
 
 ALL at zero net cost to you or your employees.
 
-Get your free quote ⬇️ https://fica-reduction.preview.emergentagent.com
+Get your free quote ⬇️ https://fica-benefits-app.preview.emergentagent.com
 
 #BusinessOwners #FICA #TaxReduction #EmployeeBenefits`,
 
@@ -139,7 +139,7 @@ What if you could:
 
 This FICA reduction program is 100% legitimate and costs you nothing.
 
-Check if you qualify: https://fica-reduction.preview.emergentagent.com`,
+Check if you qualify: https://fica-benefits-app.preview.emergentagent.com`,
 
     twitter: `❓ Have employees?
 💰 Want to save on FICA taxes?
@@ -147,7 +147,7 @@ Check if you qualify: https://fica-reduction.preview.emergentagent.com`,
 ✅ All at zero cost?
 
 This program does exactly that.
-https://fica-reduction.preview.emergentagent.com
+https://fica-benefits-app.preview.emergentagent.com
 
 #FICA #BusinessTips #EmployeeBenefits #SmallBusiness`
   };
@@ -428,12 +428,12 @@ https://fica-reduction.preview.emergentagent.com
                 <div className="bg-gray-50 p-4 rounded text-sm">
                   [Your Name] | [Phone] | [Email]<br/>
                   💰 Business owners: Save $1,100+ per employee with FICA reduction<br/>
-                  Get your free quote → https://fica-reduction.preview.emergentagent.com
+                  Get your free quote → https://fica-benefits-app.preview.emergentagent.com
                 </div>
                 <button
                   onClick={() => copyToClipboard(`[Your Name] | [Phone] | [Email]
 💰 Business owners: Save $1,100+ per employee with FICA reduction
-Get your free quote → https://fica-reduction.preview.emergentagent.com`)}
+Get your free quote → https://fica-benefits-app.preview.emergentagent.com`)}
                   className="mt-3 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
                 >
                   Copy Signature
@@ -445,14 +445,14 @@ Get your free quote → https://fica-reduction.preview.emergentagent.com`)}
                 <div className="bg-gray-50 p-4 rounded text-sm">
                   Hey [Name]! Found something that could save your business $1,100+ per employee in FICA taxes while giving them $100K life insurance + health benefits for FREE. 
                   <br/><br/>
-                  2-min check: https://fica-reduction.preview.emergentagent.com
+                  2-min check: https://fica-benefits-app.preview.emergentagent.com
                   <br/><br/>
                   Worth looking at!
                 </div>
                 <button
                   onClick={() => copyToClipboard(`Hey [Name]! Found something that could save your business $1,100+ per employee in FICA taxes while giving them $100K life insurance + health benefits for FREE. 
 
-2-min check: https://fica-reduction.preview.emergentagent.com
+2-min check: https://fica-benefits-app.preview.emergentagent.com
 
 Worth looking at!`)}
                   className="mt-3 bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
@@ -469,12 +469,12 @@ Worth looking at!`)}
                     <div className="flex">
                       <input
                         type="text"
-                        value="https://fica-reduction.preview.emergentagent.com"
+                        value="https://fica-benefits-app.preview.emergentagent.com"
                         readOnly
                         className="flex-1 px-3 py-2 border border-gray-300 rounded-l text-sm bg-gray-50"
                       />
                       <button
-                        onClick={() => copyToClipboard("https://fica-reduction.preview.emergentagent.com")}
+                        onClick={() => copyToClipboard("https://fica-benefits-app.preview.emergentagent.com")}
                         className="bg-blue-600 text-white px-3 py-2 rounded-r hover:bg-blue-700"
                       >
                         Copy
@@ -486,12 +486,12 @@ Worth looking at!`)}
                     <div className="flex">
                       <input
                         type="text"
-                        value="https://fica-reduction.preview.emergentagent.com/admin"
+                        value="https://fica-benefits-app.preview.emergentagent.com/admin"
                         readOnly
                         className="flex-1 px-3 py-2 border border-gray-300 rounded-l text-sm bg-gray-50"
                       />
                       <button
-                        onClick={() => copyToClipboard("https://fica-reduction.preview.emergentagent.com/admin")}
+                        onClick={() => copyToClipboard("https://fica-benefits-app.preview.emergentagent.com/admin")}
                         className="bg-blue-600 text-white px-3 py-2 rounded-r hover:bg-blue-700"
                       >
                         Copy

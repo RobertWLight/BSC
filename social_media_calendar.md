@@ -14,7 +14,7 @@ There's a program that can save you up to $1,100 PER EMPLOYEE while giving them:
 
 ALL at zero net cost to you or your employees.
 
-Get your free quote ⬇️ https://fica-reduction.preview.emergentagent.com
+Get your free quote ⬇️ https://fica-benefits-app.preview.emergentagent.com
 
 #BusinessOwners #FICA #TaxReduction #EmployeeBenefits
 
@@ -33,7 +33,7 @@ Sound too good to be true? It's not!
 
 This FICA reduction program is 100% legitimate and costs you nothing.
 
-Check if you qualify: https://fica-reduction.preview.emergentagent.com
+Check if you qualify: https://fica-benefits-app.preview.emergentagent.com
 
 ---
 
@@ -43,7 +43,7 @@ Check if you qualify: https://fica-reduction.preview.emergentagent.com
 **Slide 3:** Give them $100K life insurance
 **Slide 4:** All at ZERO cost to you!
 **Slide 5:** Swipe up for free quote
-**Link:** https://fica-reduction.preview.emergentagent.com
+**Link:** https://fica-benefits-app.preview.emergentagent.com
 
 ---
 
@@ -54,7 +54,7 @@ Check if you qualify: https://fica-reduction.preview.emergentagent.com
 ✅ All at zero cost?
 
 This program does exactly that.
-https://fica-reduction.preview.emergentagent.com
+https://fica-benefits-app.preview.emergentagent.com
 
 #FICA #BusinessTips #EmployeeBenefits #SmallBusiness
 
@@ -71,7 +71,7 @@ Most business owners don't know this exists:
 
 It's not a loophole - it's a legitimate business strategy.
 
-2-minute qualification: https://fica-reduction.preview.emergentagent.com
+2-minute qualification: https://fica-benefits-app.preview.emergentagent.com
 
 #TaxStrategy #SmallBusiness #EmployeeBenefits #BusinessOwner
 
@@ -87,7 +87,7 @@ It's not a loophole - it's a legitimate business strategy.
 
 Plus your employees get incredible benefits at no cost to you.
 
-Calculate your potential savings: https://fica-reduction.preview.emergentagent.com
+Calculate your potential savings: https://fica-benefits-app.preview.emergentagent.com
 
 ---
 
@@ -125,7 +125,7 @@ Traditional employee benefits are expensive. This program provides:
 Cost to you: $0
 FICA tax savings: Up to $1,100 per employee
 
-Learn more: https://fica-reduction.preview.emergentagent.com
+Learn more: https://fica-benefits-app.preview.emergentagent.com
 
 #EmployeeBenefits #BusinessStrategy #HealthcareBenefits
 
@@ -146,7 +146,7 @@ This includes medications for:
 
 Plus you save on FICA taxes. Win-win!
 
-Get details: https://fica-reduction.preview.emergentagent.com
+Get details: https://fica-benefits-app.preview.emergentagent.com
 
 ---
 
@@ -156,7 +156,7 @@ Get details: https://fica-reduction.preview.emergentagent.com
 **Slide 3:** Blood • Urine • Cultures
 **Slide 4:** $0 copay for employees  
 **Slide 5:** You save on taxes too!
-**Link:** https://fica-reduction.preview.emergentagent.com
+**Link:** https://fica-benefits-app.preview.emergentagent.com
 
 ---
 
@@ -167,7 +167,7 @@ Your employees get 3 free urgent care visits per year + you save up to $1,100 pe
 
 No brainer? We think so.
 
-https://fica-reduction.preview.emergentagent.com
+https://fica-benefits-app.preview.emergentagent.com
 
 #UrgentCare #EmployeeBenefits #BusinessSavings
 
@@ -186,7 +186,7 @@ Available 365 days a year, any time they need it.
 
 Plus you save significantly on FICA taxes.
 
-Details: https://fica-reduction.preview.emergentagent.com
+Details: https://fica-benefits-app.preview.emergentagent.com
 
 #VirtualHealthcare #EmployeeWellness #BusinessBenefits
 
@@ -205,7 +205,7 @@ TeleCounseling with US-based, Masters-level clinicians
 
 Plus the FICA tax savings for your business!
 
-Learn more: https://fica-reduction.preview.emergentagent.com
+Learn more: https://fica-benefits-app.preview.emergentagent.com
 
 ---
 
@@ -237,7 +237,7 @@ Link in bio for details!
 
 Could your business benefit from similar savings?
 
-Find out: https://fica-reduction.preview.emergentagent.com
+Find out: https://fica-benefits-app.preview.emergentagent.com
 
 #SuccessStory #BusinessSavings #RealResults
 
@@ -254,7 +254,7 @@ The best part? It actually SAVES you money through FICA reduction.
 
 Your competition probably doesn't know about this yet.
 
-Get ahead: https://fica-reduction.preview.emergentagent.com
+Get ahead: https://fica-benefits-app.preview.emergentagent.com
 
 ---
 
@@ -264,7 +264,7 @@ Get ahead: https://fica-reduction.preview.emergentagent.com
 **Slide 3:** AND help employees  
 **Slide 4:** At the same time?
 **Slide 5:** Now you can! ⬆️
-**Link:** https://fica-reduction.preview.emergentagent.com
+**Link:** https://fica-benefits-app.preview.emergentagent.com
 
 ---
 
@@ -275,7 +275,7 @@ This FICA reduction program is completely legal, IRS-compliant, and saves real m
 
 Your CPA probably doesn't know about it yet.
 
-https://fica-reduction.preview.emergentagent.com
+https://fica-benefits-app.preview.emergentagent.com
 
 #TaxReduction #BusinessStrategy #LegalTaxSavings
 
@@ -294,7 +294,7 @@ This program:
 
 Don't let another year go by overpaying.
 
-Assessment: https://fica-reduction.preview.emergentagent.com
+Assessment: https://fica-benefits-app.preview.emergentagent.com
 
 #FICATaxes #BusinessExpenses #TaxStrategy
 
@@ -312,7 +312,7 @@ That means:
 
 The window won't stay open forever.
 
-Check eligibility now: https://fica-reduction.preview.emergentagent.com
+Check eligibility now: https://fica-benefits-app.preview.emergentagent.com
 
 ---
 
@@ -347,7 +347,7 @@ Employee benefits provided: Priceless
 
 What's your ROI on free? Infinite.
 
-Calculate yours: https://fica-reduction.preview.emergentagent.com
+Calculate yours: https://fica-benefits-app.preview.emergentagent.com
 
 #ROI #BusinessFinance #SmartInvestment
 
@@ -363,7 +363,7 @@ Calculate yours: https://fica-reduction.preview.emergentagent.com
 ✓ Any business tired of overpaying FICA
 
 If this sounds like you, check it out:
-https://fica-reduction.preview.emergentagent.com
+https://fica-benefits-app.preview.emergentagent.com
 
 ---
 
@@ -373,7 +373,7 @@ https://fica-reduction.preview.emergentagent.com
 **Slide 3:** Are you paying FICA taxes?
 **Slide 4:** Want to save money?  
 **Slide 5:** Then you need this! ⬆️
-**Link:** https://fica-reduction.preview.emergentagent.com
+**Link:** https://fica-benefits-app.preview.emergentagent.com
 
 ---
 
@@ -384,7 +384,7 @@ Don't end another month overpaying FICA taxes.
 
 2-minute assessment = Potential $1,100+ annual savings per employee
 
-https://fica-reduction.preview.emergentagent.com
+https://fica-benefits-app.preview.emergentagent.com
 
 #EndOfMonth #TaxSavings #BusinessFinance
 
@@ -402,7 +402,7 @@ It's not often business interests and employee interests align perfectly.
 
 This is one of those times.
 
-Details: https://fica-reduction.preview.emergentagent.com
+Details: https://fica-benefits-app.preview.emergentagent.com
 
 #EmployeeRelations #BusinessStrategy #WinWin
 
@@ -417,7 +417,7 @@ Would you rather:
 
 The choice seems obvious, right?
 
-Make the smart choice: https://fica-reduction.preview.emergentagent.com
+Make the smart choice: https://fica-benefits-app.preview.emergentagent.com
 
 ---
 
@@ -444,7 +444,7 @@ Tomorrow starts a new month.
 
 Start it by saving money and helping employees.
 
-https://fica-reduction.preview.emergentagent.com
+https://fica-benefits-app.preview.emergentagent.com
 
 #FinalReminder #NewMonth #FreshStart
 
@@ -459,7 +459,7 @@ How many avoided urgent care due to cost?
 
 Next month can be different.
 
-Start here: https://fica-reduction.preview.emergentagent.com
+Start here: https://fica-benefits-app.preview.emergentagent.com
 
 #MonthEnd #Reflection #BetterFuture #BusinessImprovement
 
@@ -474,7 +474,7 @@ While you're thinking about taxes, don't forget about FICA reduction opportuniti
 
 This program can save your business up to $1,100 per employee annually.
 
-Talk to your tax professional about it: https://fica-reduction.preview.emergentagent.com
+Talk to your tax professional about it: https://fica-benefits-app.preview.emergentagent.com
 
 ---
 
@@ -485,7 +485,7 @@ Successful business owners make smart financial decisions even on weekends.
 
 2 minutes today = Potential $1,100+ annual savings per employee
 
-Worth the time: https://fica-reduction.preview.emergentagent.com
+Worth the time: https://fica-benefits-app.preview.emergentagent.com
 
 ---
 
@@ -501,7 +501,7 @@ This program gives your crew:
 
 Plus you save on FICA taxes.
 
-Details: https://fica-reduction.preview.emergentagent.com
+Details: https://fica-benefits-app.preview.emergentagent.com
 
 ---
 
